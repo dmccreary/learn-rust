@@ -1,11 +1,11 @@
 nav:
-  Home: index.md
-  Getting Started: getting-started.md
-  Lessons: 
-    Lab 1: lessons/01-lab.md
-    Lab 2: lessons/02-lab.md
-    Lab 3: lessons/03-lab.md
-  Contact: contact.md
+- Home: index.md
+- Getting Started: getting-started.md
+- Lessons: 
+  - Lab 1: lessons/01-lab.md
+  - Lab 2: lessons/02-lab.md
+  - Lab 3: lessons/03-lab.md
+- Contact: contact.md
 site_name: Learning Rust
 site_description: 'Resources for teaching Rust to CoderDojo Twin Cities students.  All content licensed Creative Commons ShareAlike Attribution Noncommercial'
 site_author: 'Dan McCreary'
