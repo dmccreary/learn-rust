@@ -1,1 +1,34 @@
-site_name: My Docs
+nav:
+  Home: index.md
+  Getting Started: getting-started.md
+  Lessons: 
+    Lab 1: lessons/01-lab.md
+    Lab 2: lessons/02-lab.md
+    Lab 3: lessons/03-lab.md
+  Contact: contact.md
+site_name: Learning Rust
+site_description: 'Resources for teaching Rust to CoderDojo Twin Cities students.  All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+repo_url: 'https://github.com/dmccreary/learn-rust'
+
+# CoderDojo Microsite Standards from here down
+edit_uri: 'blob/master/docs'
+theme:
+  # should be name: material
+  name: material
+  logo: img/coderdojo-logo.png
+  palette:
+    primary: '#642580'
+    accent: '#41BAC1'
+  custom_dir: 'theme'
+  include_sidebar: true
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
